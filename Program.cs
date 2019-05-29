@@ -24,6 +24,8 @@ namespace Reference_Type_Example
 
             Console.WriteLine(p1.X);    // 9
             Console.WriteLine(p2.X);    // 9  
+            // References can be assigned the literal null, indicating that the reference points to no object.
+            Point p3 = null;
         }
     }
     public class Point { public int X, Y; }
